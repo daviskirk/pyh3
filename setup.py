@@ -15,9 +15,7 @@ setup(
     keywords='walrus h3 graph visualization graphviz dot graphml network rendering render layout hyperbolic',
     packages=['h3'],
     install_requires=[
-        'python-igraph==0.7',
-        'numpy==1.9.2',
-        'matplotlib==1.4.3',
+        'numpy',
     ],
     url='http://www.github.com/buzzfeed/pyh3',
 )
